@@ -1,0 +1,195 @@
+body{
+    font-family: 'Be Vietnam', sans-serif;
+}
+.container-fluid{
+    padding : 3% 5%;
+}
+.btn{
+    border-radius: 2rem;
+}
+
+h3{
+    font-weight: 700;
+}
+h4,h6{
+    font-weight: 600;
+}
+/*navbar*/
+#section-a .container-fluid{
+    padding : 3% 5%;
+}
+.nav-bg{
+    margin-top : 1.5rem;
+}
+.nav-link{
+    margin : 0 0.5rem;
+}
+
+/*section B */
+
+#section-b img{
+    display : block;
+    width : 100%;
+    height: auto;
+}
+
+/*section C*/
+#section-c{
+    margin-top : 2rem;
+}
+.nested-row{
+    margin-top: 0.5rem;
+}
+.pspan{
+    margin-right : 2rem;
+    padding: 0.4rem 1.3rem;
+    background-color: #f25f3a;
+    border-radius: 20px;
+    color: #fafafa;
+}
+.one-to-three-spacing{
+    margin : 5% 0;
+}
+#section-c h6{
+    padding : 0.5rem 0;
+    background-color: hsl(13, 100%, 96%);
+    border-top-left-radius: 9rem;
+    border-bottom-left-radius: 9rem;
+}
+/*section D */
+#section-d .container-fluid{
+    background-color :  hsl(0, 0%, 98%);
+    padding-top : 5rem;
+    padding-bottom: 5rem;
+}
+#section-d h6,h4{
+    margin : 2rem 0;
+}
+.section-d-p-width{
+    width : 70%;
+    margin : auto;
+}
+/*carousel*/
+.carousel-indicators li{
+    background-color: transparent !important;
+    width : 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    border-style: solid !important;
+    border : 3px  #f25f3a;
+    
+}
+.carousel-inner{
+    padding-bottom: 4rem;
+}
+#section-d .btn{
+    margin-top : 2rem;
+}
+#section-d .btn:hover{
+    background-color : #f25f3a;
+}
+
+/*Section E */
+#section-e{
+    background-color : #f25f3a;
+    padding: 4rem 0;
+}
+.big-heading{
+    text-align: center;
+    margin : auto;
+    width : 50%;
+    color : white;
+    
+}
+#section-e .btn{
+    color : #f25f3a !important;
+    background-color : white;
+    border-radius: 2rem;
+    margin-top : 2rem;
+}
+/*section F*/
+
+#section-f{
+    background-color : hsl(233, 12%, 13%);
+    padding-bottom : 5em;
+    color : white;
+}
+.email{
+    border-radius: 2rem;
+    margin : 2rem 0.5rem;
+}
+.submit{
+    border-style: none;
+    background-color : #f25f3a;
+    color : white;
+    border-radius: 2rem;
+    padding : 3px 10px;
+}
+#section-f a{
+    text-decoration: none;
+    color : white;
+}
+.test{
+    width : 50%;
+    padding : 0 13%;
+}
+#section-f .text-center{
+    margin-top : 2rem;
+}
+.social-logo{
+    margin : 0 1rem;
+    width : 8%;
+}
+.logo-img{
+    margin-top : 3rem;
+}
+.footer{
+    padding-top : 3rem;
+}
+
+/*responsive */
+
+@media screen and (min-width : 768px) and (max-width : 992px) {
+    #section-c h4{
+        margin-top : 0;
+        margin-left : 2rem;
+        width : 80%;
+    }
+    #section-c p{
+       width : 80%;
+       margin-left : 2rem;
+    }
+    .social-logo{
+        width : 5%;
+    }
+    .one-to-three-spacing{
+        margin-left : 4rem !important;
+    }
+}
+@media screen and (min-width : 992px){
+    #section-f .order-lg-1{
+        margin-top : 0;
+    }
+    .social-logo{
+        margin : 0.5rem;
+    
+    }
+    .test{
+        padding : 0;
+    }
+    #section-c h4{
+        margin-top : 0;
+        margin-left : 2rem;
+        width : 70%;
+    }
+    #section-c p{
+        width : 70%;
+        margin-left : 2rem;
+    }
+    .nested-row{
+        margin-top : 0;
+    }
+    .one-to-three-spacing{
+        margin-left : 4rem !important;
+    }
+}
